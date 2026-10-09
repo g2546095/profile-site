@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kihiro Yajima</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <a href="#top">Kihiro Yajima</a>
+
+            <nav>
+                <a href="#about">About</a>
+                <a href="#works">Works</a>
+            </nav>
+        </header>
+
+        <main>
+
+            <section id="top">
+                <img src="./media/paris.jpeg" width="80%">
+
+                <p>PORTFOLIO 2026</p>
+
+                <h1>
+                    Kihiro Yajima<br>
+                    <span>Portfolio</span>
+                </h1>
+            </section>
+
+
+            <section id="about">
+
+                <h3>About</h3>
+
+                <p>
+                    矢島　希紘<br>
+                    東京都市大学デザイン・データ科学部
+                </p>
+
+                <p>
+                    生年月日：2006年10月5日<br>
+                    出身地：東京都世田谷区<br>
+                    趣味：映画鑑賞、ドラマ鑑賞
+                </p>
+
+            </section>
+
+
+            <section id="works">
+
+                <h3>Works</h3>
+
+                <div class="works-controls">
+                    <select id="category">
+                        <option value="all">すべてのカテゴリ</option>
+                    </select>
+                    <select id="sort">
+                        <option value="new">新しい順</option>
+                        <option value="old">古い順</option>
+                        <option value="title">タイトル順</option>
+                    </select>
+                </div>
+                <div id="works-grid"></div>
+            </section>
+
+        </main>
+
+        <footer>
+            <span>© 2026 Kihiro Yajima</span>
+        </footer>
+        <script src="works.js"></script>
+    </body>
+</html>
